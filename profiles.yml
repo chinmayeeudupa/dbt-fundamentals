@@ -1,4 +1,4 @@
-default:
+my-snowflake-db:
   target: dev
   outputs:
     dev:
@@ -9,6 +9,6 @@ default:
       role: "SYSADMIN"
       database: "analytics"
       warehouse: "transforming"
-      schema: ""
+      schema: "dbt_chinmayeeudupa"
       threads: 25
       
